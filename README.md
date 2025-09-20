@@ -206,4 +206,4 @@ Sparsh Sahu
 
 ## License
 
-This project is created for interview/demonstration purposes.
+MIT License
