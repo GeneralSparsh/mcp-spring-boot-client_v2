@@ -18,7 +18,7 @@
 - src/test/java/com/interview/mcp/McpClientControllerTest.java
 - src/test/java/com/interview/mcp/McpClientServiceTest.java
 
-## Interview Demonstration Points:
+## Demonstration Points:
 
 1. **Complete MCP Implementation**: Full compliance with Model Context Protocol specification
 2. **Generic Design**: Can connect to and call any MCP server URL
