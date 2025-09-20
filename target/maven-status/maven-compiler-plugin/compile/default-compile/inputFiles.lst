@@ -1,0 +1,11 @@
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\model\McpApiCallResult.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\config\McpServerProperties.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\schema\McpSchema.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\McpClientApplication.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\service\McpServerConnection.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\service\HttpMcpServerConnection.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\model\McpToolInfo.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\controller\McpClientController.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\model\McpConnectionResult.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\model\McpServerInfo.java
+D:\Task-2\mcp-spring-boot-client_v2\src\main\java\com\interview\mcp\service\McpClientService.java

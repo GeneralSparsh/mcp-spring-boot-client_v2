@@ -1,0 +1,62 @@
+# MCP Spring Boot Client Configuration
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: mcp-spring-boot-client
+
+  # Jackson configuration for JSON processing
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+      indent-output: true
+    deserialization:
+      fail-on-unknown-properties: false
+
+# Logging configuration
+logging:
+  level:
+    com.interview.mcp: DEBUG
+    io.modelcontextprotocol: DEBUG
+    org.springframework.web: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+# MCP Server configurations
+mcp:
+  servers:
+    # Example HTTP MCP server
+    - name: "example-server"
+      url: "http://localhost:3000"
+      transport: HTTP
+
+    # Example STDIO MCP server
+    # - name: "local-server"
+    #   url: "local"
+    #   transport: STDIO
+    #   command: "python"
+    #   args: 
+    #     - "/path/to/mcp-server.py"
+
+# Management endpoints for monitoring
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+# Application information
+info:
+  app:
+    name: MCP Spring Boot Client
+    description: Model Context Protocol Client Implementation
+    version: 1.0.0
+    author: Interview Candidate

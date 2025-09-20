@@ -1,0 +1,17 @@
+com\interview\mcp\schema\McpSchema.class
+com\interview\mcp\model\McpServerInfo.class
+com\interview\mcp\service\McpServerConnection.class
+com\interview\mcp\config\McpServerProperties$TransportType.class
+com\interview\mcp\schema\McpSchema$CallToolResult.class
+com\interview\mcp\service\HttpMcpServerConnection.class
+com\interview\mcp\model\McpConnectionResult.class
+com\interview\mcp\schema\McpSchema$Resource.class
+com\interview\mcp\schema\McpSchema$Tool.class
+com\interview\mcp\controller\McpClientController.class
+com\interview\mcp\config\McpServerProperties$ServerConfig.class
+com\interview\mcp\model\McpToolInfo.class
+com\interview\mcp\McpClientApplication.class
+com\interview\mcp\model\McpApiCallResult.class
+com\interview\mcp\config\McpServerProperties.class
+com\interview\mcp\schema\McpSchema$ReadResourceResult.class
+com\interview\mcp\service\McpClientService.class
